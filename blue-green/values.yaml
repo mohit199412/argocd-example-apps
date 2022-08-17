@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: dev-gitlab.infogain.com:5777demo-app/demo-service
-  tag: latest
+  repository: jakuboskera/blue-green
+  tag: blue
   pullPolicy: IfNotPresent
 
 service:
